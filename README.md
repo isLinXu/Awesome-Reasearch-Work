@@ -230,11 +230,63 @@ Awesome-Reasearch-Work
 ## Vision Models
 
 
-|      | Title | Paper Link | Code Link | Published | Keywords | Venue |
-| ---- | ----- | ---------- | --------- | --------- | -------- | ----- |
-|      |       |            |           |           |          |       |
-|      |       |            |           |           |          |       |
-|      |       |            |           |           |          |       |
+|                     | Title                                                        | Paper Link                                | Code Link | Published | Keywords | Venue |
+| ------------------- | ------------------------------------------------------------ | ----------------------------------------- | --------- | --------- | -------- | ----- |
+| BEiT                | BEiT: BERT Pre-Training of Image Transformers                | Paper                                     | Code      |           |          |       |
+| BiT                 | Big Transfer (BiT): General Visual Representation Learning   | [Paper](https://arxiv.org/abs/1912.11370) | Code      |           |          |       |
+| Conditional DETR    | Conditional DETR for Fast Training Convergence               | Paper                                     | Code      |           |          |       |
+| ConvNeXT            | A ConvNet for the 2020s                                      | Paper                                     | Code      |           |          |       |
+| ConvNeXt V2         | ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders | Paper                                     | Code      |           |          |       |
+| CvT                 | CvT: Introducing Convolutions to Vision Transformers         | Paper                                     | Code      |           |          |       |
+| Deformable DETR     | Deformable DETR: Deformable Transformers for End-to-End Object Detection | Paper                                     | Code      |           |          |       |
+| DeiT                | Training data-efficient image transformers & distillation through attention | Paper                                     | Code      |           |          |       |
+| Depth Anything      | Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data | Paper                                     | Code      |           |          |       |
+| Depth Anything V2   | Depth Anything V2                                            | [Paper](https://arxiv.org/abs/2406.09414) | Code      |           |          |       |
+| DETA                | NMS Strikes Back                                             | Paper                                     | Code      |           |          |       |
+| DETR                | End-to-End Object Detection with Transformers                | Paper                                     | Code      |           |          |       |
+| DiNAT               | Dilated Neighborhood Attention Transformer                   | Paper                                     | Code      |           |          |       |
+| DINOv2              | DINOv2: Learning Robust Visual Features without Supervision  | Paper                                     | Code      |           |          |       |
+| DiT                 | DiT: Self-supervised Pre-training for Document Image Transformer | Paper                                     | Code      |           |          |       |
+| DPT                 | Vision Transformers for Dense Prediction                     | Paper                                     | Code      |           |          |       |
+| EfficientFormer     | EfficientFormer：Vision Transformers at MobileNet Speed      | Paper                                     | Code      |           |          |       |
+| EfficientNet        | EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks | Paper                                     | Code      |           |          |       |
+| FocalNet            | Focal Modulation Networks                                    | Paper                                     | Code      |           |          |       |
+| GLPN                | Global-Local Path Networks for Monocular Depth Estimation with Vertical CutDepth | Paper                                     | Code      |           |          |       |
+| Hiera               | Hiera: A Hierarchical Vision Transformer without the Bells-and-Whistles | Paper                                     | Code      |           |          |       |
+| ImageGPT            | Generative Pretraining from Pixels                           | Paper                                     | Code      |           |          |       |
+| LeViT               | LeViT: Introducing Convolutions to Vision Transformers       | Paper                                     | Code      |           |          |       |
+| Mask2Former         | Masked-attention Mask Transformer for Universal Image Segmentation | Paper                                     | Code      |           |          |       |
+| MaskFormer          | Per-Pixel Classification is Not All You Need for Semantic Segmentation | Paper                                     | Code      |           |          |       |
+| MobileNet V1        | MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications | Paper                                     | Code      |           |          |       |
+| MobileNet V2        | MobileNetV2: Inverted Residuals and Linear Bottlenecks       | Paper                                     | Code      |           |          |       |
+| MobileViT           | MobileViT: Light-weight, General-purpose, and Mobile-friendly Vision Transformer | Paper                                     | Code      |           |          |       |
+| MobileViT V2        | Separable Self-attention for Mobile Vision Transformers      | Paper                                     | Code      |           |          |       |
+| NAT                 | Neighborhood Attention Transformer                           | Paper                                     | Code      |           |          |       |
+| PoolFormer          | MetaFormer is Actually What You Need for Vision              | Paper                                     | Code      |           |          |       |
+| PVT                 | Pyramid Vision Transformer (PVT)                             | Paper                                     | Code      |           |          |       |
+| PVTv2               | PVT v2: Improved Baselines with Pyramid Vision Transformer   | Paper                                     | Code      |           |          |       |
+| RegNet              | Designing Network Design Spaces                              | Paper                                     | Code      |           |          |       |
+| ResNet              | Deep Residual Learning for Image Recognition                 | Paper                                     | Code      |           |          |       |
+| RT-DETR             | DETRs Beat YOLOs on Real-time Object Detection               | Paper                                     | Code      |           |          |       |
+| SegFormer           | SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers | Paper                                     | Code      |           |          |       |
+| SegGPT              | SegGPT: Segmenting Everything In Context                     | Paper                                     | Code      |           |          |       |
+| SuperPoint          | SuperPoint: Self-Supervised Interest Point Detection and Description | Paper                                     | Code      |           |          |       |
+| SwiftFormer         | SwiftFormer: Efficient Additive Attention for Transformer-based Real-time Mobile Vision Applications | Paper                                     | Code      |           |          |       |
+| Swin Transformer    | Swin Transformer: Hierarchical Vision Transformer using Shifted Windows | Paper                                     | Code      |           |          |       |
+| Swin Transformer V2 | Swin Transformer V2: Scaling Up Capacity and Resolution      | Paper                                     | Code      |           |          |       |
+| Swin2SR             | Swin2SR: SwinV2 Transformer for Compressed Image Super-Resolution and Restoration | Paper                                     | Code      |           |          |       |
+| Table Transformer   | PubTables-1M: Towards comprehensive table extraction from unstructured documents | Paper                                     | Code      |           |          |       |
+| UPerNet             | Unified Perceptual Parsing for Scene Understanding           | Paper                                     | Code      |           |          |       |
+| VAN                 | Visual Attention Network                                     | Paper                                     | Code      |           |          |       |
+| ViT                 | An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | Paper                                     | Code      |           |          |       |
+| ViT Hybrid          | An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | Paper                                     | Code      |           |          |       |
+| ViTDet              | Exploring Plain Vision Transformer Backbones for Object Detection | Paper                                     | Code      |           |          |       |
+| ViTMAE              | Masked Autoencoders Are Scalable Vision Learners             | Paper                                     | Code      |           |          |       |
+| ViTMatte            | Boosting Image Matting with Pretrained Plain Vision Transformers | Paper                                     | Code      |           |          |       |
+| ViTMSN              | Masked Siamese Networks for Label-Efficient Learning         | Paper                                     | Code      |           |          |       |
+| YOLOS               | You Only Look at One Sequence: Rethinking Transformer in Vision through Object Detection | Paper                                     | Code      |           |          |       |
+| ZoeDepth            | ZoeDepth: Zero-shot Transfer by Combining Relative and Metric Depth |                                           |           |           |          |       |
+|                     |                                                              |                                           |           |           |          |       |
 
 
 
