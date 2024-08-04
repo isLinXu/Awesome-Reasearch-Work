@@ -3,7 +3,27 @@
 ---
 Awesome-Reasearch-Work
 
-## Transformers-MultiModal Models(Sort A-Z)
+(Sort A-Z)
+
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href=##Transformers-MultiModal-Models>Transformers-MultiModal-Models</a></li>
+    <li><a href=##Language-Models>Language-Models</a></li>
+    <li><a href=##Audio-Models>Audio-Models</a></li>
+    <li><a href=##Video-Models>Video-Models</a></li>
+    <li><a href=##VLM-Pre-training-Methods>VLM-Pre-training-Methods</a></li>
+    <li><a href=##VLM-Transfer-Learning-Methods>VLM-Transfer-Learning-Methods</a></li>
+    <li><a href=##VLM-Knowledge-Distillation-for-Detection>VLM-Knowledge-Distillation-for-Detection</a></li>
+    <li><a href=##VLM-Knowledge-Distillation-for-Segmentation>VLM-Knowledge-Distillation-for-Segmentation</a></li>
+    <li><a href=##VLM-Knowledge-Distillation-for-Other-Vision-Tasks>VLM-Knowledge-Distillation-for-Other-Vision-Tasks</a></li>
+    <li><a href=##Prompt-Learning>Prompt-Learning</a></li>
+  </ol>
+</details>
+
+
+
+## Transformers-MultiModal-Models
 
 |                   | Title                                                        | Paper Link | Code Link | Published | Keywords | Venue                                            |
 | ----------------- | ------------------------------------------------------------ | ---------- | --------- | --------- | -------- | ------------------------------------------------ |
@@ -85,7 +105,7 @@ Awesome-Reasearch-Work
 
 
 
-## Language Models
+## Language-Models
 
 
 |                      | Title                                                        | Paper Link                                                   | Code Link                                                    | Published | Keywords | Venue                                                        |
@@ -294,7 +314,7 @@ Awesome-Reasearch-Work
 
 
 
-## Speech Models
+## Audio-Models
 
 |      | Title | Paper Link | Code Link | Published | Keywords | Venue |
 | ---- | ----- | ---------- | --------- | --------- | -------- | ----- |
@@ -305,9 +325,18 @@ Awesome-Reasearch-Work
 
 
 
+## Video-Models
+
+|      | Title | Paper Link | Code Link | Published | Keywords | Venue |
+| ---- | ----- | ---------- | --------- | --------- | -------- | ----- |
+|      |       |            |           |           |          |       |
+|      |       |            |           |           |          |       |
+|      |       |            |           |           |          |       |
+|      |       |            |           |           |          |       |
 
 
-## VLM Pre-training Methods
+
+## VLM-Pre-training-Methods
 
 ---
 
@@ -330,7 +359,7 @@ Awesome-Reasearch-Work
 
 ---
 
-## VLM Transfer Learning Methods
+## VLM-Transfer-Learning-Methods
 
 | -                           | Title                                                        | Paper Link                                        | Code Link                                                    | Published | Keywords | Venue      |
 | --------------------------- | ------------------------------------------------------------ | ------------------------------------------------- | ------------------------------------------------------------ | --------- | -------- | ---------- |
@@ -360,7 +389,7 @@ Awesome-Reasearch-Work
 
 
 
-## VLM Knowledge Distillation for Detection
+## VLM-Knowledge-Distillation-for-Detection
 
 |             | Title                                                        | Paper Link                                        | Code Link                                                 | Published | Keywords | Venue     |
 | ----------- | ------------------------------------------------------------ | ------------------------------------------------- | --------------------------------------------------------- | --------- | -------- | --------- |
@@ -370,7 +399,7 @@ Awesome-Reasearch-Work
 
  
 
-## VLM Knowledge Distillation for Segmentation
+## VLM-Knowledge-Distillation-for-Segmentation
 
 |          | Title                                                        | Paper Link                                | Code Link | Published | Keywords | Venue     |
 | -------- | ------------------------------------------------------------ | ----------------------------------------- | --------- | --------- | -------- | --------- |
@@ -379,8 +408,7 @@ Awesome-Reasearch-Work
 
 
 
-
-## VLM Knowledge Distillation for Other Vision Tasks
+## VLM-Knowledge-Distillation-for-Other-Vision-Tasks
 
 |             | Title                                                        | Paper Link                                    | Code Link                                     | Published | Keywords | Venue     |
 | ----------- | ------------------------------------------------------------ | --------------------------------------------- | --------------------------------------------- | --------- | -------- | --------- |
@@ -392,7 +420,7 @@ Awesome-Reasearch-Work
 
 ---
 
-## Prompt Learning
+## Prompt-Learning
 
 | -          | Title                                                        | Paper Link                                                   | Code Link                                                    | Published | Keywords                                   | Venue        |
 | ---------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | --------- | ------------------------------------------ | ------------ |
