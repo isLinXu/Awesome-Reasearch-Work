@@ -8,78 +8,77 @@ Awesome-Reasearch-Work
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href=##Transformers-MultiModal-Models>Transformers-MultiModal-Models</a></li>
-    <li><a href=##Language-Models>Language-Models</a></li>
-    <li><a href=##Audio-Models>Audio-Models</a></li>
-    <li><a href=##Video-Models>Video-Models</a></li>
-    <li><a href=##VLM-Pre-training-Methods>VLM-Pre-training-Methods</a></li>
-    <li><a href=##VLM-Transfer-Learning-Methods>VLM-Transfer-Learning-Methods</a></li>
-    <li><a href=##VLM-Knowledge-Distillation-for-Detection>VLM-Knowledge-Distillation-for-Detection</a></li>
-    <li><a href=##VLM-Knowledge-Distillation-for-Segmentation>VLM-Knowledge-Distillation-for-Segmentation</a></li>
-    <li><a href=##VLM-Knowledge-Distillation-for-Other-Vision-Tasks>VLM-Knowledge-Distillation-for-Other-Vision-Tasks</a></li>
-    <li><a href=##Prompt-Learning>Prompt-Learning</a></li>
+    <li><a href=#Transformers-MultiModal-Models>Transformers-MultiModal-Models</a></li>
+    <li><a href=#Language-Models>Language-Models</a></li>
+    <li><a href=#Audio-Models>Audio-Models</a></li>
+    <li><a href=#Video-Models>Video-Models</a></li>
+    <li><a href=#VLM-Pre-training-Methods>VLM-Pre-training-Methods</a></li>
+    <li><a href=#VLM-Transfer-Learning-Methods>VLM-Transfer-Learning-Methods</a></li>
+    <li><a href=#VLM-Knowledge-Distillation-for-Detection>VLM-Knowledge-Distillation-for-Detection</a></li>
+    <li><a href=#VLM-Knowledge-Distillation-for-Segmentation>VLM-Knowledge-Distillation-for-Segmentation</a></li>
+    <li><a href=#VLM-Knowledge-Distillation-for-Other-Vision-Tasks>VLM-Knowledge-Distillation-for-Other-Vision-Tasks</a></li>
+    <li><a href=#Prompt-Learning>Prompt-Learning</a></li>
   </ol>
 </details>
 
 
-
 ## Transformers-MultiModal-Models
 
-|                   | Title                                                        | Paper Link | Code Link | Published | Keywords | Venue                                            |
-| ----------------- | ------------------------------------------------------------ | ---------- | --------- | --------- | -------- | ------------------------------------------------ |
-| ALIGN             | Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision | Paper      | Code      | 2021      |          |                                                  |
-| AltCLIP           | AltCLIP: Altering the Language Encoder in CLIP for Extended Language Capabilities | Paper      | Code      |           |          |                                                  |
-| BLIP              | BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation | Paper      | Code      |           |          |                                                  |
-| BLIP-2            | BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models | Paper      | Code      |           |          |                                                  |
-| BridgeTower       | BridgeTower: Building Bridges Between Encoders in Vision-Language Representative Learning | Paper      | Code      |           |          | [AAAI’23](https://aaai.org/Conferences/AAAI-23/) |
-| BROS              | BROS: A Pre-trained Language Model Focusing on Text and Layout for Better Key Information Extraction from Documents | Paper      | Code      |           |          |                                                  |
-| Chameleon         | Chameleon: Mixed-Modal Early-Fusion Foundation Models        | Paper      | Code      |           |          |                                                  |
-| Chinese-CLIP      | Chinese CLIP: Contrastive Vision-Language Pretraining in Chinese | Paper      | Code      |           |          |                                                  |
-| CLIP              | Learning Transferable Visual Models From Natural Language Supervision | Paper      | Code      |           |          |                                                  |
-| CLIPSeg           | Image Segmentation Using Text and Image Prompts              | Paper      | Code      |           |          |                                                  |
-| CLVP              | Better speech synthesis through scaling                      | Paper      | Code      |           |          |                                                  |
-| Data2Vec          | data 2 vec：A General Framework for Self-supervised Learning in Speech，Vision and Language | Paper      | Code      |           |          |                                                  |
-| DePlot            | DePlot: One-shot visual language reasoning by plot-to-table translation | Paper      | Code      |           |          |                                                  |
-| Donut             | OCR-free Document Understanding Transformer                  | Paper      | Code      |           |          |                                                  |
-| FLAVA             | FLAVA: A Foundational Language And Vision Alignment Model    | Paper      | Code      |           |          |                                                  |
-| GIT               | GIT: A Generative Image-to-text Transformer for Vision and Language | Paper      | Code      |           |          |                                                  |
-| Grounding DINO    | Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection | Paper      | Code      |           |          |                                                  |
-| GroupViT          | GroupViT: Semantic Segmentation Emerges from Text Supervision | Paper      | Code      |           |          |                                                  |
-| IDEFICS           | OBELICS: An Open Web-Scale Filtered Dataset of Interleaved Image-Text Documents | Paper      | Code      |           |          |                                                  |
-| IDEFICS-2         | What matters when building vision-language models?           | Paper      | Code      |           |          |                                                  |
-| InstructBLIP      | InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning | Paper      | Code      |           |          |                                                  |
-| InstructBlipVideo | InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning | Paper      | Code      |           |          |                                                  |
-| KOSMOS-2          | Kosmos-2: Grounding Multimodal Large Language Models to the World | Paper      | Code      |           |          |                                                  |
-| LayoutLM          | LayoutLM: Pre-training of Text and Layout for Document Image Understanding | Paper      | Code      |           |          |                                                  |
-| LayoutLMV2        | LayoutLMv2: Multi-modal Pre-training for Visually-Rich Document Understanding | Paper      | Code      |           |          |                                                  |
-| LayoutLMv3        | LayoutLMv3: Pre-training for Document AI with Unified Text and Image Masking | Paper      | Code      |           |          |                                                  |
-| LayoutXLM         | LayoutXLM: Multimodal Pre-training for Multilingual Visually-rich Document Understanding | Paper      | Code      |           |          |                                                  |
-| LiLT              | LiLT: A Simple yet Effective Language-Independent Layout Transformer for Structured Document Understanding | Paper      | Code      |           |          |                                                  |
-| LLaVa             | Improved Baselines with Visual Instruction Tuning            | Paper      | Code      |           |          |                                                  |
-| LLaVA-NeXT        | LLaVA-NeXT: Improved reasoning, OCR, and world knowledge     | Paper      | Code      |           |          |                                                  |
-| LLaVa-NeXT-Video  | LLaVA-NeXT: A Strong Zero-shot Video Understanding Model     | Paper      | Code      |           |          |                                                  |
-| LXMERT            | LXMERT: Learning Cross-Modality Encoder Representations from Transformers | Paper      | Code      |           |          |                                                  |
-| MatCha            | MatCha：Enhancing Visual Language Pretraining with Math Reasoning and Chart Derrendering | Paper      | Code      |           |          |                                                  |
-| MGP-STR           | Multi-Granularity Prediction for Scene Text Recognition      | Paper      | Code      |           |          |                                                  |
-| Nougat            | Nougat: Neural Optical Understanding for Academic Documents  | Paper      | Code      |           |          |                                                  |
-| OneFormer         | OneFormer: One Transformer to Rule Universal Image Segmentation | Paper      | Code      |           |          |                                                  |
-| OWL-ViT           | Simple Open-Vocabulary Object Detection with Vision Transformers | Paper      | Code      |           |          |                                                  |
-| PaliGemma         | PaliGemma – Google’s Cutting-Edge Open Vision Language Model | Paper      | Code      |           |          |                                                  |
-| Perceiver         | Perceiver IO: A General Architecture for Structured Inputs & Outputs | Paper      | Code      |           |          |                                                  |
-| Pix2Struct        | Pix2Struct: Screenshot Parsing as Pretraining for Visual Language Understanding | Paper      | Code      |           |          |                                                  |
-| SAM               | Segment Anything                                             | Paper      | Code      |           |          |                                                  |
-| SigLIP            | Sigmoid Loss for Language Image Pre-Training                 | Paper      | Code      |           |          |                                                  |
-| TAPAS             | TAPAS: Weakly Supervised Table Parsing via Pre-training      | Paper      | Code      |           |          |                                                  |
-| TrOCR             | TrOCR: Transformer-based Optical Character Recognition with Pre-trained Models | Paper      | Code      |           |          |                                                  |
-| TVLT              | TVLT: Textless Vision-Language Transformer                   | Paper      | Code      |           |          |                                                  |
-| TVP               | Text-Visual Prompting for Efficient 2D Temporal Video Grounding | Paper      | Code      |           |          |                                                  |
-| UDOP              | Unifying Vision, Text, and Layout for Universal Document Processing | Paper      | Code      |           |          |                                                  |
-| Video-LLaVA       | Video-LLaVA: Learning United Visual Representation by Alignment Before Projection | Paper      | Code      |           |          |                                                  |
-| ViLT              | ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision | Paper      | Code      |           |          |                                                  |
-| VipLlava          | Making Large Multimodal Models Understand Arbitrary Visual Prompts | Paper      | Code      |           |          |                                                  |
-| VisualBERT        | VisualBERT: A Simple and Performant Baseline for Vision and Language | Paper      | Code      |           |          |                                                  |
-| X-CLIP            | Expanding Language-Image Pretrained Models for General Video Recognition | Paper      | Code      |           |          |                                                  |
-|                   |                                                              |            |           |           |          |                                                  |
+|                   | Title                                                        | Paper Link                                  | Code Link                                                    | Published | Keywords | Venue                                            |
+| ----------------- | ------------------------------------------------------------ | ------------------------------------------- | ------------------------------------------------------------ | --------- | -------- | ------------------------------------------------ |
+| ALIGN             | Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision | [Paper](https://arxiv.org/abs/2102.05918)   | Code                                                         | 2021      |          |                                                  |
+| AltCLIP           | AltCLIP: Altering the Language Encoder in CLIP for Extended Language Capabilities | [Paper](https://arxiv.org/abs/2211.06679v2) | Code                                                         | 2022      |          |                                                  |
+| BLIP              | BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation | [Paper](https://arxiv.org/abs/2201.12086)   | [Code](https://github.com/salesforce/BLIP)                   | 2022      |          |                                                  |
+| BLIP-2            | BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models | [Paper](https://arxiv.org/abs/2301.12597)   | [Code](https://github.com/salesforce/LAVIS/tree/5ee63d688ba4cebff63acee04adaef2dee9af207) | 2023      |          |                                                  |
+| BridgeTower       | BridgeTower: Building Bridges Between Encoders in Vision-Language Representative Learning | [Paper](https://arxiv.org/abs/2206.08657)   | [Code](https://github.com/microsoft/BridgeTower)             | 2023      |          | [AAAI’23](https://aaai.org/Conferences/AAAI-23/) |
+| BROS              | BROS: A Pre-trained Language Model Focusing on Text and Layout for Better Key Information Extraction from Documents | Paper                                       | Code                                                         |           |          |                                                  |
+| Chameleon         | Chameleon: Mixed-Modal Early-Fusion Foundation Models        | Paper                                       | Code                                                         |           |          |                                                  |
+| Chinese-CLIP      | Chinese CLIP: Contrastive Vision-Language Pretraining in Chinese | Paper                                       | Code                                                         |           |          |                                                  |
+| CLIP              | Learning Transferable Visual Models From Natural Language Supervision | Paper                                       | Code                                                         |           |          |                                                  |
+| CLIPSeg           | Image Segmentation Using Text and Image Prompts              | Paper                                       | Code                                                         |           |          |                                                  |
+| CLVP              | Better speech synthesis through scaling                      | Paper                                       | Code                                                         |           |          |                                                  |
+| Data2Vec          | data 2 vec：A General Framework for Self-supervised Learning in Speech，Vision and Language | Paper                                       | Code                                                         |           |          |                                                  |
+| DePlot            | DePlot: One-shot visual language reasoning by plot-to-table translation | Paper                                       | Code                                                         |           |          |                                                  |
+| Donut             | OCR-free Document Understanding Transformer                  | Paper                                       | Code                                                         |           |          |                                                  |
+| FLAVA             | FLAVA: A Foundational Language And Vision Alignment Model    | Paper                                       | Code                                                         |           |          |                                                  |
+| GIT               | GIT: A Generative Image-to-text Transformer for Vision and Language | Paper                                       | Code                                                         |           |          |                                                  |
+| Grounding DINO    | Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection | Paper                                       | Code                                                         |           |          |                                                  |
+| GroupViT          | GroupViT: Semantic Segmentation Emerges from Text Supervision | Paper                                       | Code                                                         |           |          |                                                  |
+| IDEFICS           | OBELICS: An Open Web-Scale Filtered Dataset of Interleaved Image-Text Documents | Paper                                       | Code                                                         |           |          |                                                  |
+| IDEFICS-2         | What matters when building vision-language models?           | Paper                                       | Code                                                         |           |          |                                                  |
+| InstructBLIP      | InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning | Paper                                       | Code                                                         |           |          |                                                  |
+| InstructBlipVideo | InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning | Paper                                       | Code                                                         |           |          |                                                  |
+| KOSMOS-2          | Kosmos-2: Grounding Multimodal Large Language Models to the World | Paper                                       | Code                                                         |           |          |                                                  |
+| LayoutLM          | LayoutLM: Pre-training of Text and Layout for Document Image Understanding | Paper                                       | Code                                                         |           |          |                                                  |
+| LayoutLMV2        | LayoutLMv2: Multi-modal Pre-training for Visually-Rich Document Understanding | Paper                                       | Code                                                         |           |          |                                                  |
+| LayoutLMv3        | LayoutLMv3: Pre-training for Document AI with Unified Text and Image Masking | Paper                                       | Code                                                         |           |          |                                                  |
+| LayoutXLM         | LayoutXLM: Multimodal Pre-training for Multilingual Visually-rich Document Understanding | Paper                                       | Code                                                         |           |          |                                                  |
+| LiLT              | LiLT: A Simple yet Effective Language-Independent Layout Transformer for Structured Document Understanding | Paper                                       | Code                                                         |           |          |                                                  |
+| LLaVa             | Improved Baselines with Visual Instruction Tuning            | Paper                                       | Code                                                         |           |          |                                                  |
+| LLaVA-NeXT        | LLaVA-NeXT: Improved reasoning, OCR, and world knowledge     | Paper                                       | Code                                                         |           |          |                                                  |
+| LLaVa-NeXT-Video  | LLaVA-NeXT: A Strong Zero-shot Video Understanding Model     | Paper                                       | Code                                                         |           |          |                                                  |
+| LXMERT            | LXMERT: Learning Cross-Modality Encoder Representations from Transformers | Paper                                       | Code                                                         |           |          |                                                  |
+| MatCha            | MatCha：Enhancing Visual Language Pretraining with Math Reasoning and Chart Derrendering | Paper                                       | Code                                                         |           |          |                                                  |
+| MGP-STR           | Multi-Granularity Prediction for Scene Text Recognition      | Paper                                       | Code                                                         |           |          |                                                  |
+| Nougat            | Nougat: Neural Optical Understanding for Academic Documents  | Paper                                       | Code                                                         |           |          |                                                  |
+| OneFormer         | OneFormer: One Transformer to Rule Universal Image Segmentation | Paper                                       | Code                                                         |           |          |                                                  |
+| OWL-ViT           | Simple Open-Vocabulary Object Detection with Vision Transformers | Paper                                       | Code                                                         |           |          |                                                  |
+| PaliGemma         | PaliGemma – Google’s Cutting-Edge Open Vision Language Model | Paper                                       | Code                                                         |           |          |                                                  |
+| Perceiver         | Perceiver IO: A General Architecture for Structured Inputs & Outputs | Paper                                       | Code                                                         |           |          |                                                  |
+| Pix2Struct        | Pix2Struct: Screenshot Parsing as Pretraining for Visual Language Understanding | Paper                                       | Code                                                         |           |          |                                                  |
+| SAM               | Segment Anything                                             | Paper                                       | Code                                                         |           |          |                                                  |
+| SigLIP            | Sigmoid Loss for Language Image Pre-Training                 | Paper                                       | Code                                                         |           |          |                                                  |
+| TAPAS             | TAPAS: Weakly Supervised Table Parsing via Pre-training      | Paper                                       | Code                                                         |           |          |                                                  |
+| TrOCR             | TrOCR: Transformer-based Optical Character Recognition with Pre-trained Models | Paper                                       | Code                                                         |           |          |                                                  |
+| TVLT              | TVLT: Textless Vision-Language Transformer                   | Paper                                       | Code                                                         |           |          |                                                  |
+| TVP               | Text-Visual Prompting for Efficient 2D Temporal Video Grounding | Paper                                       | Code                                                         |           |          |                                                  |
+| UDOP              | Unifying Vision, Text, and Layout for Universal Document Processing | Paper                                       | Code                                                         |           |          |                                                  |
+| Video-LLaVA       | Video-LLaVA: Learning United Visual Representation by Alignment Before Projection | Paper                                       | Code                                                         |           |          |                                                  |
+| ViLT              | ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision | Paper                                       | Code                                                         |           |          |                                                  |
+| VipLlava          | Making Large Multimodal Models Understand Arbitrary Visual Prompts | Paper                                       | Code                                                         |           |          |                                                  |
+| VisualBERT        | VisualBERT: A Simple and Performant Baseline for Vision and Language | Paper                                       | Code                                                         |           |          |                                                  |
+| X-CLIP            | Expanding Language-Image Pretrained Models for General Video Recognition | Paper                                       | Code                                                         |           |          |                                                  |
+|                   |                                                              |                                             |                                                              |           |          |                                                  |
 
 - Vision Encoder Decoder Models
 
