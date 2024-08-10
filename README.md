@@ -21,7 +21,7 @@ Awesome-Reasearch-Work
   </ol>
 # Transformers-MultiModal-Models
 
-|                   | Title                                                        | Paper Link                                                   | Code Link                                                    | Published | Keywords  | Venue                                            |
+| Model / Methods   | Title                                                        | Paper Link                                                   | Code Link                                                    | Published | Keywords  | Venue                                            |
 | ----------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | --------- | --------- | ------------------------------------------------ |
 | ALIGN             | Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision | [Paper](https://arxiv.org/abs/2102.05918)                    | Code                                                         | 2021      |           |                                                  |
 | AltCLIP           | AltCLIP: Altering the Language Encoder in CLIP for Extended Language Capabilities | [Paper](https://arxiv.org/abs/2211.06679v2)                  | Code                                                         | 2022      |           |                                                  |
@@ -107,7 +107,7 @@ Awesome-Reasearch-Work
 # Language-Models
 
 
-|                      | Title                                                        | Paper Link                                                   | Code Link                                                    | Published | Keywords | Venue                                                        |
+| Model / Methods      | Title                                                        | Paper Link                                                   | Code Link                                                    | Published | Keywords | Venue                                                        |
 | -------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | --------- | -------- | ------------------------------------------------------------ |
 | ALBERT               | ALBERT: A Lite BERT for Self-supervised Learning of Language Representations | [Paper](https://arxiv.org/abs/1909.11942)                    | [Code](https://github.com/google-research/ALBERT)            | 2019      |          |                                                              |
 | BART                 | BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension | [Paper](https://arxiv.org/abs/1910.13461)                    | [Code](https://github.com/facebookresearch/fairseq/tree/main/examples/bart) | 2019      |          |                                                              |
@@ -252,7 +252,7 @@ Awesome-Reasearch-Work
 # Vision Models
 
 
-|                     | Title                                                        | Paper Link                                  | Code Link                                                    | Published | Keywords         | Venue        |
+| Model / Methods     | Title                                                        | Paper Link                                  | Code Link                                                    | Published | Keywords         | Venue        |
 | ------------------- | ------------------------------------------------------------ | ------------------------------------------- | ------------------------------------------------------------ | --------- | ---------------- | ------------ |
 | BEiT                | BEiT: BERT Pre-Training of Image Transformers                | [Paper](https://arxiv.org/abs/2106.08254)   | [Code](https://github.com/microsoft/unilm/tree/master/beit)  | 2022      |                  |              |
 | BiT                 | Big Transfer (BiT): General Visual Representation Learning   | [Paper](https://arxiv.org/abs/1912.11370)   | [Code](https://github.com/google-research/big_transfer)      | 2020      |                  |              |
@@ -315,71 +315,134 @@ Awesome-Reasearch-Work
 
 # Audio-Models
 
-|      | Title | Paper Link | Code Link | Published | Keywords | Venue |
-| ---- | ----- | ---------- | --------- | --------- | -------- | ----- |
-|      |       |            |           |           |          |       |
-|      |       |            |           |           |          |       |
-|      |       |            |           |           |          |       |
-|      |       |            |           |           |          |       |
+| Model / Methods | Title | Paper Link | Code Link | Published | Keywords | Venue |
+| --------------- | ----- | ---------- | --------- | --------- | -------- | ----- |
+|                 |       |            |           |           |          |       |
+|                 |       |            |           |           |          |       |
+|                 |       |            |           |           |          |       |
+|                 |       |            |           |           |          |       |
 
 
 
 # Video-Models
 
-|      | Title | Paper Link | Code Link | Published | Keywords | Venue |
-| ---- | ----- | ---------- | --------- | --------- | -------- | ----- |
-|      |       |            |           |           |          |       |
-|      |       |            |           |           |          |       |
-|      |       |            |           |           |          |       |
-|      |       |            |           |           |          |       |
+| Model / Methods | Title | Paper Link | Code Link | Published | Keywords | Venue |
+| --------------- | ----- | ---------- | --------- | --------- | -------- | ----- |
+|                 |       |            |           |           |          |       |
+|                 |       |            |           |           |          |       |
+|                 |       |            |           |           |          |       |
+|                 |       |            |           |           |          |       |
 
-# Detection
+## Detection
 
-|      | Title | Paper Link | Code Link | Published | Keywords | Venue |
-| ---- | ----- | ---------- | --------- | --------- | -------- | ----- |
-|      |       |            |           |           |          |       |
-|      |       |            |           |           |          |       |
-|      |       |            |           |           |          |       |
+| Model / Methods | Title | Paper Link | Code Link | Published | Keywords | Venue |
+| --------------- | ----- | ---------- | --------- | --------- | -------- | ----- |
+|                 |       |            |           |           |          |       |
+|                 |       |            |           |           |          |       |
+|                 |       |            |           |           |          |       |
 
-# Open-Vocabulary Detection
+## Open Vocabulary Object Detection
 
-|      | Title | Paper Link | Code Link | Published | Keywords | Venue |
-| ---- | ----- | ---------- | --------- | --------- | -------- | ----- |
-|      |       |            |           |           |          |       |
-|      |       |            |           |           |          |       |
-|      |       |            |           |           |          |       |
+### on MSCOCO
+
+| Model / Methods                  | Title                                                        | Paper Link                                                   | Code Link                                                    | Published | AP(0.5⬆️) | Keywords | Venue     |
+| -------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | --------- | -------- | -------- | --------- |
+| Cooperative Foundational Models  | Enhancing Novel Object Detection via Cooperative Foundational Models | [Paper](https://arxiv.org/abs/2311.12068v2)                  | [Code](https://github.com/rohit901/cooperative-foundational-models) | 2023      | 50.3     |          |           |
+| DE-ViT                           | Detect Everything with Few Examples                          | [Paper](https://arxiv.org/abs/2309.12969v3)                  | [Code](https://github.com/mlzxy/devit)                       | 2023      | 50       |          |           |
+| DITO                             | Region-centric Image-Language Pretraining for Open-Vocabulary Detection | [Paper](https://arxiv.org/abs/2310.00161v2)                  | [Code](https://github.com/google-research/google-research/tree/master/fvlm/dito) | 2023      | 46.1     |          |           |
+| OV-DQUO<br />(RN50x4)            | OV-DQUO: Open-Vocabulary DETR with Denoising Text Query Training and Open-World Unknown Objects Supervision | [Paper](https://arxiv.org/abs/2405.17913v1)                  | [Code](https://github.com/xiaomoguhz/ov-dquo)                | 2024      | 45.6     |          |           |
+| LP-OVOD<br />(OWL-ViT Proposals) | LP-OVOD: Open-Vocabulary Object Detection by Linear Probing  | [Paper](https://arxiv.org/abs/2310.17109v2)                  | [Code](https://github.com/vinairesearch/lp-ovod)             | 2023      | 44.9     |          |           |
+| CLIPSelf                         | CLIPSelf: Vision Transformer Distills Itself for Open-Vocabulary Dense Prediction | [Paper](https://arxiv.org/abs/2310.01403v2)                  | [Code](https://github.com/wusize/clipself)                   | 2023      | 44.3     |          |           |
+| CORA+                            | CORA: Adapting CLIP for Open-Vocabulary Detection with Region Prompting and Anchor Pre-Matching | [Paper](https://arxiv.org/abs/2303.13076v1)                  | [Code](https://github.com/tgxs002/cora)                      | 2023      | 43.1     |          | CVPR 2023 |
+| BARON                            | Aligning Bag of Regions for Open-Vocabulary Object Detection | [Paper](https://arxiv.org/abs/2302.13996v1)                  | [Code](https://github.com/wusize/ovdet)                      | 2023      | 42.7     |          | CVPR 2023 |
+| CORA                             | CORA: Adapting CLIP for Open-Vocabulary Detection with Region Prompting and Anchor Pre-Matching | [Paper](https://arxiv.org/abs/2303.13076v1)                  | [Code](https://github.com/tgxs002/cora)                      | 2023      | 41.7     |          | CVPR 2023 |
+| RALF                             | Retrieval-Augmented Open-Vocabulary Object Detection         | [Paper](http://openaccess.thecvf.com//content/CVPR2024/papers/Kim_Retrieval-Augmented_Open-Vocabulary_Object_Detection_CVPR_2024_paper.pdf) | [Code](https://github.com/mlvlab/RALF)                       | 2024      | 41.3     |          | CVPR 2024 |
+| LP-OVOD                          | LP-OVOD: Open-Vocabulary Object Detection by Linear Probing  | [Paper](https://arxiv.org/abs/2310.17109v2)                  | [Code](https://github.com/vinairesearch/lp-ovod)             | 2023      | 40.5     |          |           |
+| Region-CLIP<br />(RN50x4-C4)     | RegionCLIP: Region-based Language-Image Pretraining          | [Paper](http://openaccess.thecvf.com//content/CVPR2022/html/Zhong_RegionCLIP_Region-Based_Language-Image_Pretraining_CVPR_2022_paper.html) | [Code](https://github.com/microsoft/regionclip)              | 2021      | 39.3     |          | CVPR 2022 |
+| OV-DQUO<br/>(R50)                | OV-DQUO: Open-Vocabulary DETR with Denoising Text Query Training and Open-World Unknown Objects Supervision | [Paper](https://arxiv.org/abs/2405.17913v1)                  | [Code](https://github.com/xiaomoguhz/ov-dquo)                | 2024      | 39.2     |          |           |
+| Object-Centric-OVD               | Bridging the Gap between Object and Image-level Representations for Open-Vocabulary Detection | [Paper](https://arxiv.org/abs/2207.03482v3)                  | [Code](https://github.com/mmaaz60/mvits_for_class_agnostic_od) | 2022      | 36.9     |          |           |
+| CLIM<br/>(RN50)                  | CLIM: Contrastive Language-Image Mosaic for Region Representation | [Paper](https://arxiv.org/abs/2312.11376v2)                  | [Code](https://github.com/wusize/clim)                       | 2023      | 36.9     |          |           |
+| OADP<br/>(G-OVD)]                | Object-Aware Distillation Pyramid for Open-Vocabulary Object Detection | [Paper](http://openaccess.thecvf.com//content/CVPR2023/html/Wang_Object-Aware_Distillation_Pyramid_for_Open-Vocabulary_Object_Detection_CVPR_2023_paper.html) | [Code](https://github.com/lutingwang/oadp)                   | 2023      | 35.6     |          | CVPR 2023 |
+| VL-PLM<br/>(RN50)                | Exploiting Unlabeled Data with Vision and Language Models for Object Detection | [Paper](https://arxiv.org/abs/2207.08954v1)                  | [Code](https://github.com/xiaofeng94/vl-plm)                 | 2022      | 34.4     |          |           |
+| CFM-ViT                          | Contrastive Feature Masking Open-Vocabulary Vision Transformer | [Paper](https://paperswithcode.com/paper/contrastive-feature-masking-open-vocabulary) | Code                                                         | 2023      | 34.1     |          | ICCV 2023 |
+| MEDet<br/>(RN50)                 | Open Vocabulary Object Detection with Proposal Mining and Prediction Equalization | [Paper](https://arxiv.org/abs/2206.11134v4)                  | [Code](https://github.com/peixianchen/medet)                 | 2022      | 32.6     |          |           |
+| Region-CLIP<br/>(RN50-C4)        | RegionCLIP: Region-based Language-Image Pretraining          | [Paper](http://openaccess.thecvf.com//content/CVPR2022/html/Zhong_RegionCLIP_Region-Based_Language-Image_Pretraining_CVPR_2022_paper.html) | [Code](https://github.com/microsoft/regionclip)              | 2022      | 31.4     |          | CVPR 2022 |
+| OVAD-Baseline                    | Open-vocabulary Attribute Detection                          | [Paper](http://openaccess.thecvf.com//content/CVPR2023/html/Bravo_Open-Vocabulary_Attribute_Detection_CVPR_2023_paper.html) | [Code](https://github.com/OVAD-Benchmark/ovad-bechmark-code) | 2022      | 30.0     |          | CVPR 2023 |
+| OADP                             | Object-Aware Distillation Pyramid for Open-Vocabulary Object Detection | [Paper](http://openaccess.thecvf.com//content/CVPR2023/html/Wang_Object-Aware_Distillation_Pyramid_for_Open-Vocabulary_Object_Detection_CVPR_2023_paper.html) | [Code](https://github.com/lutingwang/oadp)                   | 2023      | 30.0     |          | CVPR 2023 |
+| OV-DERT                          | Open-Vocabulary DETR with Conditional Matching               | [Paper](https://arxiv.org/abs/2203.11876v2)                  | [Code](https://github.com/yuhangzang/ov-detr)                | 2022      | 29.4     |          |           |
+| LocOv<br/>(RN50-C4)]             | Localized Vision-Language Matching for Open-vocabulary Object Detection | [Paper](https://arxiv.org/abs/2205.06160v2)                  | [Code](https://github.com/lmb-freiburg/locov)                | 2022      | 28.6     |          |           |
+| Detic                            | Detecting Twenty-thousand Classes using Image-level Supervision | [Paper](https://arxiv.org/abs/2201.02605v3)                  | [Code](https://github.com/facebookresearch/Detic)            | 2022      | 27.8     |          |           |
+| ViLD                             | Open-vocabulary Object Detection via Vision and Language Knowledge Distillation | [Paper](https://openreview.net/forum?id=lL3lnMbR4WU)         | [Code](https://colab.research.google.com/drive/19LBqQg0cS36rTLL_TaXZ7Ka9KJGkxiSe?usp=sharing) | 2021      | 27.6     |          | ICIR 2022 |
+| OVR-CNN                          | Open-Vocabulary Object Detection Using Captions              | [Paper](http://openaccess.thecvf.com//content/CVPR2021/html/Zareian_Open-Vocabulary_Object_Detection_Using_Captions_CVPR_2021_paper.html) | [Code](https://github.com/alirezazareian/ovr-cnn)            | 2021      | 22.8     |          | CVPR 2021 |
+| HierKD                           | Open-Vocabulary One-Stage Detection with Hierarchical Visual-Language Knowledge Distillation | [Paper](http://openaccess.thecvf.com//content/CVPR2022/html/Ma_Open-Vocabulary_One-Stage_Detection_With_Hierarchical_Visual-Language_Knowledge_Distillation_CVPR_2022_paper.html) | [Code](https://github.com/mengqidyangge/hierkd)              | 2022      | 20.3     |          | CVPR 2022 |
+|                                  |                                                              |                                                              |                                                              |           |          |          |           |
+
+### on LVIS v1.0
+
+| Model / Methods | Title | Paper Link | Code Link | Published | AP(0.5⬆️) | Keywords | Venue |
+| --------------- | ----- | ---------- | --------- | --------- | -------- | -------- | ----- |
+|                 |       |            |           |           |          |          |       |
+|                 |       |            |           |           |          |          |       |
+|                 |       |            |           |           |          |          |       |
+|                 |       |            |           |           |          |          |       |
+
+### on OpenImages-v4
+
+| Model / Methods | Title | Paper Link | Code Link | Published | AP(0.5⬆️) | Keywords | Venue |
+| --------------- | ----- | ---------- | --------- | --------- | -------- | -------- | ----- |
+|                 |       |            |           |           |          |          |       |
+|                 |       |            |           |           |          |          |       |
+|                 |       |            |           |           |          |          |       |
+|                 |       |            |           |           |          |          |       |
+
+### on Objects365
+
+| Model / Methods | Title | Paper Link | Code Link | Published | AP(0.5⬆️) | Keywords | Venue |
+| --------------- | ----- | ---------- | --------- | --------- | -------- | -------- | ----- |
+|                 |       |            |           |           |          |          |       |
+|                 |       |            |           |           |          |          |       |
+|                 |       |            |           |           |          |          |       |
+|                 |       |            |           |           |          |          |       |
 
 
 
-# Open-Vocabulary Segmentation
 
-|      | Title | Paper Link | Code Link | Published | Keywords | Venue |
-| ---- | ----- | ---------- | --------- | --------- | -------- | ----- |
-|      |       |            |           |           |          |       |
-|      |       |            |           |           |          |       |
-|      |       |            |           |           |          |       |
-|      |       |            |           |           |          |       |
+
+
+
+
+
+
+
+## Open-Vocabulary Segmentation
+
+| Model / Methods | Title | Paper Link | Code Link | Published | Keywords | Venue |
+| --------------- | ----- | ---------- | --------- | --------- | -------- | ----- |
+|                 |       |            |           |           |          |       |
+|                 |       |            |           |           |          |       |
+|                 |       |            |           |           |          |       |
+|                 |       |            |           |           |          |       |
 
 # VLM-Pre-training-Methods
 
 ---
 
-|          | Title                                                        | Paper Link                                                 | Code Link                                                    | Published | Keywords | Venue     |
-| -------- | ------------------------------------------------------------ | ---------------------------------------------------------- | ------------------------------------------------------------ | --------- | -------- | --------- |
-|          | Efficient Vision-Language Pre-training by Cluster Masking    | [Paper](https://arxiv.org/pdf/2405.08815)                  | [Code](https://github.com/Zi-hao-Wei/Efficient-Vision-Language-Pre-training-by-Cluster-Masking) | 2024      |          | CVPR 2024 |
-|          | Towards Better Vision-Inspired Vision-Language Models        | [Paper](https://www.lamda.nju.edu.cn/caoyh/files/VIVL.pdf) | Code                                                         | 2024      |          | CVPR 2024 |
-|          | Non-autoregressive Sequence-to-Sequence Vision-Language Models | [Paper](https://arxiv.org/abs/2403.02249v1)                | Code                                                         | 2024      |          | CVPR 2024 |
-| ViTamin  | ViTamin: Designing Scalable Vision Models in the Vision-Language Era | [Paper](https://arxiv.org/abs/2404.02132v1)                | [Code](https://github.com/Beckschen/ViTamin)                 | 2024      |          | CVPR 2024 |
-|          | Iterated Learning Improves Compositionality in Large Vision-Language Models | [Paper](https://arxiv.org/abs/2404.02145v1)                | Code                                                         | 2024      |          | CVPR 2024 |
-| FairCLIP | FairCLIP: Harnessing Fairness in Vision-Language Learning    | [Paper](https://arxiv.org/abs/2403.19949v1)                | [Code](https://ophai.hms.harvard.edu/datasets/fairvlmed10k)  | 2024      |          | CVPR 2024 |
-| InternVL | InternVL: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks | [Paper](https://arxiv.org/abs/2312.14238)                  | [Code](https://github.com/OpenGVLab/InternVL)                | 2024      |          | CVPR 2024 |
-| VILA     | VILA: On Pre-training for Visual Language Models             | [Paper](https://arxiv.org/abs/2312.07533)                  | Code                                                         | 2024      |          | CVPR 2024 |
-|          | Generative Region-Language Pretraining for Open-Ended Object Detection | [Paper](https://arxiv.org/pdf/2403.10191v1.pdf)            | [Code](https://github.com/FoundationVision/GenerateU)        | 2024      |          | CVPR 2024 |
-|          | Enhancing Vision-Language Pre-training with Rich Supervisions | [Paper](https://arxiv.org/pdf/2403.03346v1.pdf)            | Code                                                         | 2024      |          | CVPR 2024 |
-|          | Unified Language-Vision Pretraining in LLM with Dynamic Discrete Visual Tokenization | [Paper](https://arxiv.org/abs/2309.04669)                  | [Code](https://github.com/jy0205/LaVIT)                      | 2024      |          | ICLR 2024 |
-| MMICL    | MMICL: Empowering Vision-language Model with Multi-Modal In-Context Learning | [Paper](https://arxiv.org/abs/2309.07915)                  | [Code](https://github.com/PKUnlp-icler/MIC)                  | 2024      |          | ICLR 2024 |
-|          | Retrieval-Enhanced Contrastive Vision-Text Models            | [Paper](https://arxiv.org/abs/2306.07196)                  | Code                                                         | 2024      |          | ICLR 2024 |
-|          |                                                              |                                                            |                                                              |           |          |           |
+| Model / Methods | Title                                                        | Paper Link                                                 | Code Link                                                    | Published | Keywords | Venue     |
+| --------------- | ------------------------------------------------------------ | ---------------------------------------------------------- | ------------------------------------------------------------ | --------- | -------- | --------- |
+|                 | Efficient Vision-Language Pre-training by Cluster Masking    | [Paper](https://arxiv.org/pdf/2405.08815)                  | [Code](https://github.com/Zi-hao-Wei/Efficient-Vision-Language-Pre-training-by-Cluster-Masking) | 2024      |          | CVPR 2024 |
+|                 | Towards Better Vision-Inspired Vision-Language Models        | [Paper](https://www.lamda.nju.edu.cn/caoyh/files/VIVL.pdf) | Code                                                         | 2024      |          | CVPR 2024 |
+|                 | Non-autoregressive Sequence-to-Sequence Vision-Language Models | [Paper](https://arxiv.org/abs/2403.02249v1)                | Code                                                         | 2024      |          | CVPR 2024 |
+| ViTamin         | ViTamin: Designing Scalable Vision Models in the Vision-Language Era | [Paper](https://arxiv.org/abs/2404.02132v1)                | [Code](https://github.com/Beckschen/ViTamin)                 | 2024      |          | CVPR 2024 |
+|                 | Iterated Learning Improves Compositionality in Large Vision-Language Models | [Paper](https://arxiv.org/abs/2404.02145v1)                | Code                                                         | 2024      |          | CVPR 2024 |
+| FairCLIP        | FairCLIP: Harnessing Fairness in Vision-Language Learning    | [Paper](https://arxiv.org/abs/2403.19949v1)                | [Code](https://ophai.hms.harvard.edu/datasets/fairvlmed10k)  | 2024      |          | CVPR 2024 |
+| InternVL        | InternVL: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks | [Paper](https://arxiv.org/abs/2312.14238)                  | [Code](https://github.com/OpenGVLab/InternVL)                | 2024      |          | CVPR 2024 |
+| VILA            | VILA: On Pre-training for Visual Language Models             | [Paper](https://arxiv.org/abs/2312.07533)                  | Code                                                         | 2024      |          | CVPR 2024 |
+|                 | Generative Region-Language Pretraining for Open-Ended Object Detection | [Paper](https://arxiv.org/pdf/2403.10191v1.pdf)            | [Code](https://github.com/FoundationVision/GenerateU)        | 2024      |          | CVPR 2024 |
+|                 | Enhancing Vision-Language Pre-training with Rich Supervisions | [Paper](https://arxiv.org/pdf/2403.03346v1.pdf)            | Code                                                         | 2024      |          | CVPR 2024 |
+|                 | Unified Language-Vision Pretraining in LLM with Dynamic Discrete Visual Tokenization | [Paper](https://arxiv.org/abs/2309.04669)                  | [Code](https://github.com/jy0205/LaVIT)                      | 2024      |          | ICLR 2024 |
+| MMICL           | MMICL: Empowering Vision-language Model with Multi-Modal In-Context Learning | [Paper](https://arxiv.org/abs/2309.07915)                  | [Code](https://github.com/PKUnlp-icler/MIC)                  | 2024      |          | ICLR 2024 |
+|                 | Retrieval-Enhanced Contrastive Vision-Text Models            | [Paper](https://arxiv.org/abs/2306.07196)                  | Code                                                         | 2024      |          | ICLR 2024 |
+|                 |                                                              |                                                            |                                                              |           |          |           |
 
 
 
