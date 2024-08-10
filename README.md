@@ -5,11 +5,25 @@ Awesome-Reasearch-Work
 
 (Sort A-Z)
 
+Detection
+
 # Table of Contents
 
   <ol>
     <li><a href=#Transformers-MultiModal-Models>Transformers-MultiModal-Models</a></li>
     <li><a href=#Language-Models>Language-Models</a></li>
+    <li><a href=#Vision-Models>Vision-Models</a></li>
+    	<ol>
+            <li><a href=#Detection>Detection</a></li>
+            <li><a href=#Open-Vocabulary-Object-Detection>Open-Vocabulary-Object-Detection</a></li>
+        	  <ol>
+              <li><a href=#on-MSCOCO-Benchmark>on-MSCOCO-Benchmark</a></li>
+              <li><a href=#on-LVIS-v1.0-Benchmark>on-LVIS-v1.0-Benchmark</a></li>
+              <li><a href=#on-OpenImages-v4-Benchmark>on-OpenImages-v4-Benchmark</a></li>
+              <li><a href=#on-Objects365-Benchmark>on-Objects365-Benchmark</a></li>
+            </ol>
+            <li><a href=#Open-Vocabulary-Segmentation> Open-Vocabulary-Segmentation</a></li>
+      </ol>
     <li><a href=#Audio-Models>Audio-Models</a></li>
     <li><a href=#Video-Models>Video-Models</a></li>
     <li><a href=#VLM-Pre-training-Methods>VLM-Pre-training-Methods</a></li>
@@ -19,6 +33,7 @@ Awesome-Reasearch-Work
     <li><a href=#VLM-Knowledge-Distillation-for-Other-Vision-Tasks>VLM-Knowledge-Distillation-for-Other-Vision-Tasks</a></li>
     <li><a href=#Prompt-Learning>Prompt-Learning</a></li>
   </ol>
+
 # Transformers-MultiModal-Models
 
 | Model / Methods   | Title                                                        | Paper Link                                                   | Code Link                                                    | Published | Keywords  | Venue                                            |
@@ -249,7 +264,7 @@ Awesome-Reasearch-Work
 
 
 
-# Vision Models
+# Vision-Models
 
 
 | Model / Methods     | Title                                                        | Paper Link                                  | Code Link                                                    | Published | Keywords         | Venue        |
@@ -311,28 +326,6 @@ Awesome-Reasearch-Work
 | ZoeDepth            | ZoeDepth: Zero-shot Transfer by Combining Relative and Metric Depth | [Paper](https://arxiv.org/abs/2302.12288)   | [Code](https://github.com/isl-org/ZoeDepth)                  | 2023      |                  |              |
 |                     |                                                              |                                             |                                                              |           |                  |              |
 
-
-
-# Audio-Models
-
-| Model / Methods | Title | Paper Link | Code Link | Published | Keywords | Venue |
-| --------------- | ----- | ---------- | --------- | --------- | -------- | ----- |
-|                 |       |            |           |           |          |       |
-|                 |       |            |           |           |          |       |
-|                 |       |            |           |           |          |       |
-|                 |       |            |           |           |          |       |
-
-
-
-# Video-Models
-
-| Model / Methods | Title | Paper Link | Code Link | Published | Keywords | Venue |
-| --------------- | ----- | ---------- | --------- | --------- | -------- | ----- |
-|                 |       |            |           |           |          |       |
-|                 |       |            |           |           |          |       |
-|                 |       |            |           |           |          |       |
-|                 |       |            |           |           |          |       |
-
 ## Detection
 
 | Model / Methods | Title | Paper Link | Code Link | Published | Keywords | Venue |
@@ -341,17 +334,17 @@ Awesome-Reasearch-Work
 |                 |       |            |           |           |          |       |
 |                 |       |            |           |           |          |       |
 
-## Open Vocabulary Object Detection
+## Open-Vocabulary-Object-Detection
 
-### on MSCOCO
+### on-MSCOCO-Benchmark
 
 | Model / Methods                  | Title                                                        | Paper Link                                                   | Code Link                                                    | Published | AP(0.5⬆️) | Keywords | Venue     |
 | -------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | --------- | -------- | -------- | --------- |
-| Cooperative Foundational Models  | Enhancing Novel Object Detection via Cooperative Foundational Models | [![Paper](https://img.shields.io/badge/Paper-cdd7e6?style=for-the-badge)](https://arxiv.org/abs/2311.12068v2) | [![Star](https://img.shields.io/github/stars/rohit901/cooperative-foundational-models.svg?style=social&label=Star)](https://github.com/rohit901/cooperative-foundational-models) | 2023      | 50.3     |          |           |
-|                                  |                                                              | [Paper](https://arxiv.org/abs/2311.12068v2)                  | [Code](https://github.com/rohit901/cooperative-foundational-models) |           |          |          |           |
-| DE-ViT                           | Detect Everything with Few Examples                          | [Paper](https://arxiv.org/abs/2309.12969v3)                  | [Code](https://github.com/mlzxy/devit)                       | 2023      | 50       |          |           |
-| DITO                             | Region-centric Image-Language Pretraining for Open-Vocabulary Detection | [Paper](https://arxiv.org/abs/2310.00161v2)                  | [Code](https://github.com/google-research/google-research/tree/master/fvlm/dito) | 2023      | 46.1     |          |           |
-| OV-DQUO<br />(RN50x4)            | OV-DQUO: Open-Vocabulary DETR with Denoising Text Query Training and Open-World Unknown Objects Supervision | [Paper](https://arxiv.org/abs/2405.17913v1)                  | [Code](https://github.com/xiaomoguhz/ov-dquo)                | 2024      | 45.6     |          |           |
+| Cooperative Foundational Models  | Enhancing Novel Object Detection via Cooperative Foundational Models | [![Paper](https://img.shields.io/badge/Paper-cyd7e6?style=for-the-badge)](https://arxiv.org/abs/2311.12068v2) | ![Code](https://img.shields.io/badge/Code-add7e6?style=for-the-badge)[![Star](https://img.shields.io/github/stars/rohit901/cooperative-foundational-models.svg?style=social&label=Star)](https://github.com/rohit901/cooperative-foundational-models) | 2023      | 50.3     |          |           |
+| DE-ViT                           | Detect Everything with Few Examples                          | [![Paper](https://img.shields.io/badge/Paper-ydd7e6?style=for-the-badge)](https://arxiv.org/abs/2309.12969v3) | ![Code](https://img.shields.io/badge/Code-add7e6?style=for-the-badge)[![Star](https://img.shields.io/github/stars/mlzxy/devit.svg?style=social&label=Star)](https://github.com/mlzxy/devit) | 2023      | 50       |          |           |
+| DITO                             | Region-centric Image-Language Pretraining for Open-Vocabulary Detection | [![Paper](https://img.shields.io/badge/Paper-ydd7e6?style=for-the-badge)](https://arxiv.org/abs/2310.00161v2) | ![Code](https://img.shields.io/badge/Code-add7e6?style=for-the-badge)[![Star](https://img.shields.io/github/stars/google-research/google-research.svg?style=social&label=Star)](https://github.com/google-research/google-research/tree/master/fvlm/dito) | 2023      | 46.1     |          |           |
+| OV-DQUO<br />(RN50x4)            | OV-DQUO: Open-Vocabulary DETR with Denoising Text Query Training and Open-World Unknown Objects Supervision | [![Paper](https://img.shields.io/badge/Paper-ydd7e6?style=for-the-badge)](https://arxiv.org/abs/2405.17913v1) | ![Code](https://img.shields.io/badge/Code-add7e6?style=for-the-badge)[![Star](https://img.shields.io/github/stars/xiaomoguhz/ov-dquo.svg?style=social&label=Star)](https://github.com/xiaomoguhz/ov-dquo) | 2024      | 45.6     |          |           |
+|                                  |                                                              | [Paper](https://arxiv.org/abs/2405.17913v1)                  | [Code](https://github.com/xiaomoguhz/ov-dquo)                |           |          |          |           |
 | LP-OVOD<br />(OWL-ViT Proposals) | LP-OVOD: Open-Vocabulary Object Detection by Linear Probing  | [Paper](https://arxiv.org/abs/2310.17109v2)                  | [Code](https://github.com/vinairesearch/lp-ovod)             | 2023      | 44.9     |          |           |
 | CLIPSelf                         | CLIPSelf: Vision Transformer Distills Itself for Open-Vocabulary Dense Prediction | [Paper](https://arxiv.org/abs/2310.01403v2)                  | [Code](https://github.com/wusize/clipself)                   | 2023      | 44.3     |          |           |
 | CORA+                            | CORA: Adapting CLIP for Open-Vocabulary Detection with Region Prompting and Anchor Pre-Matching | [Paper](https://arxiv.org/abs/2303.13076v1)                  | [Code](https://github.com/tgxs002/cora)                      | 2023      | 43.1     |          | CVPR 2023 |
@@ -378,7 +371,7 @@ Awesome-Reasearch-Work
 | HierKD                           | Open-Vocabulary One-Stage Detection with Hierarchical Visual-Language Knowledge Distillation | [Paper](http://openaccess.thecvf.com//content/CVPR2022/html/Ma_Open-Vocabulary_One-Stage_Detection_With_Hierarchical_Visual-Language_Knowledge_Distillation_CVPR_2022_paper.html) | [Code](https://github.com/mengqidyangge/hierkd)              | 2022      | 20.3     |          | CVPR 2022 |
 |                                  |                                                              |                                                              |                                                              |           |          |          |           |
 
-### on LVIS v1.0
+### on-LVIS-v1.0-Benchmark
 
 | Model / Methods | Title | Paper Link | Code Link | Published | AP(0.5⬆️) | Keywords | Venue |
 | --------------- | ----- | ---------- | --------- | --------- | -------- | -------- | ----- |
@@ -387,7 +380,7 @@ Awesome-Reasearch-Work
 |                 |       |            |           |           |          |          |       |
 |                 |       |            |           |           |          |          |       |
 
-### on OpenImages-v4
+### on-OpenImages-v4-Benchmark
 
 | Model / Methods | Title | Paper Link | Code Link | Published | AP(0.5⬆️) | Keywords | Venue |
 | --------------- | ----- | ---------- | --------- | --------- | -------- | -------- | ----- |
@@ -396,7 +389,7 @@ Awesome-Reasearch-Work
 |                 |       |            |           |           |          |          |       |
 |                 |       |            |           |           |          |          |       |
 
-### on Objects365
+### on-Objects365-Benchmark
 
 | Model / Methods | Title | Paper Link | Code Link | Published | AP(0.5⬆️) | Keywords | Venue |
 | --------------- | ----- | ---------- | --------- | --------- | -------- | -------- | ----- |
@@ -415,7 +408,7 @@ Awesome-Reasearch-Work
 
 
 
-## Open-Vocabulary Segmentation
+## Open-Vocabulary-Segmentation
 
 | Model / Methods | Title | Paper Link | Code Link | Published | Keywords | Venue |
 | --------------- | ----- | ---------- | --------- | --------- | -------- | ----- |
@@ -423,6 +416,33 @@ Awesome-Reasearch-Work
 |                 |       |            |           |           |          |       |
 |                 |       |            |           |           |          |       |
 |                 |       |            |           |           |          |       |
+
+
+
+
+
+
+
+# Audio-Models
+
+| Model / Methods | Title | Paper Link | Code Link | Published | Keywords | Venue |
+| --------------- | ----- | ---------- | --------- | --------- | -------- | ----- |
+|                 |       |            |           |           |          |       |
+|                 |       |            |           |           |          |       |
+|                 |       |            |           |           |          |       |
+|                 |       |            |           |           |          |       |
+
+
+
+# Video-Models
+
+| Model / Methods | Title | Paper Link | Code Link | Published | Keywords | Venue |
+| --------------- | ----- | ---------- | --------- | --------- | -------- | ----- |
+|                 |       |            |           |           |          |       |
+|                 |       |            |           |           |          |       |
+|                 |       |            |           |           |          |       |
+|                 |       |            |           |           |          |       |
+
 
 # VLM-Pre-training-Methods
 
