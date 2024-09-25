@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "multmodal_model/index.md",
+                "file": "agent/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "multmodal_model/index.md",
+                "file": "agent/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "multmodal_model/index.md",
+                "file": "agent/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "multmodal_model/index.md"
+                "file": "agent/index.md"
               }
             }
           }
@@ -146,12 +146,22 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b497c8c0325d1876",
+  "active": "34c4da132c9e6b11",
   "lastOpenFiles": [
-    "audio_model/index~.md",
-    "README.md",
+    "rl/index.md",
+    "agent/index.md",
+    "reinforcement_learning/index.md",
+    "reinforcement_learning",
+    "rl",
+    "multmodal_model/index.md",
     "audio_model/index.md",
+    "README.md",
+    "agent",
     "vision_model/Classification/On-ImageNet-Benchmark.md",
+    "vision_model/Detection/On-coco2017-Benchmark.md",
+    "vision_model/Detection/index.md",
+    "vision_model/Detection/On-coco2017-Benchmark~.md",
+    "audio_model/index~.md",
     "vision_model/Classification/On-ImageNet-Benchmark~.md",
     "cot/cot_results.md",
     "other/awesome-ovd-ovseg.md",
@@ -159,8 +169,6 @@
     "other/index.md",
     "video_model/index.md",
     "vision_model/Open-Vocabulary-Object-Detection/index.md",
-    "未命名",
-    "vision_model/Detection/index.md",
     "vision_model/index.md",
     "vision_model/Open-Vocabulary-Segmentation/index.md",
     "vision_model/Open-Vocabulary-Object-Detection/on-Objects365-Benchmark.md",
@@ -168,19 +176,13 @@
     "vision_model/Open-Vocabulary-Object-Detection/on-OpenImages-v4-Benchmark.md",
     "vision_model/Open-Vocabulary-Object-Detection/on-LVIS-v1.0-Benchmark.md",
     "vision_model/Open-Vocabulary-Object-Detection/on-MSCOCO-Benchmark.md",
-    "vision_model/Detection/On-coco2017-Benchmark.md",
     "vision_model/Open-Vocabulary-Object-Detection",
     "vision_model/Detection",
     "vision_model/On-Hugging-face.md",
     "vision_model/Classification",
     "language_model/index.md",
-    "multmodal_model/index.md",
     "other",
     "video_model",
-    "audio_model",
-    "vision_model",
-    "multmodal_model",
-    "README~.md",
-    "awesome-ovd-ovseg.md"
+    "audio_model"
   ]
 }
