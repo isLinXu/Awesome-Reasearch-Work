@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "agent/index.md",
+                "file": "multmodal_model/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "agent/index.md",
+                "file": "multmodal_model/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "agent/index.md",
+                "file": "multmodal_model/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "agent/index.md"
+                "file": "multmodal_model/index.md"
               }
             }
           }
@@ -148,12 +148,15 @@
   },
   "active": "34c4da132c9e6b11",
   "lastOpenFiles": [
-    "rl/index.md",
-    "agent/index.md",
+    "language_model/index.md",
+    "multmodal_model/index.md",
     "reinforcement_learning/index.md",
+    "reinforcement_learning/index~.md",
+    "agent/index.md",
+    "other/index.md",
+    "rl/index.md",
     "reinforcement_learning",
     "rl",
-    "multmodal_model/index.md",
     "audio_model/index.md",
     "README.md",
     "agent",
@@ -166,7 +169,6 @@
     "cot/cot_results.md",
     "other/awesome-ovd-ovseg.md",
     "cot/cot_datasets.md",
-    "other/index.md",
     "video_model/index.md",
     "vision_model/Open-Vocabulary-Object-Detection/index.md",
     "vision_model/index.md",
@@ -178,9 +180,7 @@
     "vision_model/Open-Vocabulary-Object-Detection/on-MSCOCO-Benchmark.md",
     "vision_model/Open-Vocabulary-Object-Detection",
     "vision_model/Detection",
-    "vision_model/On-Hugging-face.md",
     "vision_model/Classification",
-    "language_model/index.md",
     "other",
     "video_model",
     "audio_model"
