@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "multmodal_model/index.md",
+                "file": "reinforcement_learning/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 254.5
   },
   "right": {
     "id": "5e14273e619fbfbe",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "multmodal_model/index.md",
+                "file": "reinforcement_learning/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "multmodal_model/index.md",
+                "file": "reinforcement_learning/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "multmodal_model/index.md"
+                "file": "reinforcement_learning/index.md"
               }
             }
           }
@@ -148,10 +148,10 @@
   },
   "active": "34c4da132c9e6b11",
   "lastOpenFiles": [
-    "language_model/index.md",
+    "reinforcement_learning/index~.md",
     "multmodal_model/index.md",
     "reinforcement_learning/index.md",
-    "reinforcement_learning/index~.md",
+    "language_model/index.md",
     "agent/index.md",
     "other/index.md",
     "rl/index.md",
